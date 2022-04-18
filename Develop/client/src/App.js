@@ -1,6 +1,9 @@
 import React from 'react';
+import { render } from 'react-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import { ApolloProvider } from "@apollo/react-hooks";
+import { ApolloProvider } from "react-apollo";
+import ApolloClient from 'apollo-boost';
+
 import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
@@ -33,6 +36,9 @@ function App() {
       </Router>
     </ApolloProvider>
   );
+
+  render(ApolloApp(App), document.getElementById('root'));
 }
+
 
 export default App;
