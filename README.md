@@ -15,7 +15,7 @@ This application has been converted from a RESTFUL API to a GraphQL API build wi
   ## Installation
 In order to install this application, clone the respository. Be sure to cd into the proper directory then run npm install. Once done, run npm start in the command line.
   ## Usage
-Someone should use this project to look up and keep track of books they may be interested in!
+Someone should use this project to look up and keep track of books they may be interested in! Try it out at https://smu-book-engine.herokuapp.com/
   ## Contribution
 Fork the repository and contact me at the information below.
   ## Tests
